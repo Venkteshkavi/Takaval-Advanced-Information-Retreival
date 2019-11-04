@@ -13,7 +13,7 @@ requests==2.11.1
 Flask-Assets==0.12
 pandas
 sklearn
-nltk==3.4.1
+nltk==3.4.5
 gensim
 sumy
 afinn

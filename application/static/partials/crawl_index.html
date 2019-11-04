@@ -1,0 +1,41 @@
+<div class="row">
+
+    <div class="col-xs-12">
+        <div class="card-box">
+            <div class="table-rep-plugin">
+                <div class="table-responsive" data-pattern="priority-columns">
+                    <table id="tech-companies-1" class="table  table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th data-priority="1">Title</th>
+                                <th data-priority="2">Topic</th>
+                                <th data-priority="3">Source</th>
+                                <th data-priority="2">Lang</th>
+                                <th data-priority="3">Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="c in cdata track by $index">
+                                <th><span class="co-name">{a c.id a}</span></th>
+                                <td><a href="{a c.url a}" target="_blank">{a c.title a}</a></td>
+                                <td>
+                                    <span ng-if="c.topic=='riot'" class="label label-primary">{a c.topic a}</span>
+                                    <span ng-if="c.topic=='protest'" class="label label-default">{a c.topic a}</span>
+                                    <span ng-if="c.topic=='violence'" class="label label-info">{a c.topic a}</span>
+                                    <span ng-if="c.topic==''" class="label label-ash">Others</span>
+                                </td>
+                                <td>{a c.src a}</td>
+                                <td>{a c.lang a}</td>
+                                <td>{a c.pubDate a}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <pagination ng-show="totalItems>0" class="pagination pagination-split m-t-0 m-b-0" page="currentPage" max-size="noOfPages" total-items="totalItems" items-per-page="entryLimit" previous-text="&lt;" next-text="&gt;"></pagination>
+        </div>
+    </div>
+  
+  </div>
+  <!-- end row -->

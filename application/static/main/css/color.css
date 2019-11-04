@@ -1,0 +1,261 @@
+/* ============================
+
+	        COLOR
+
+=============================== */
+.btn-link,.btn-link:hover,
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover,
+.navbar.navbar-bg-light .navbar-nav > li > a:hover, .navbar.navbar-bg-light .navbar-nav > li > a:focus, .navbar.navbar-bg-light .navbar-nav > li > a.active,
+.navbar.navbar-bg-light .navbar-nav > li > a.highlighted,
+.dark-sticky-light .navbar .navbar-nav > li > a:hover, .dark-sticky-light .navbar .navbar-nav > li > a:focus, .dark-sticky-light .navbar .navbar-nav > li > a.active,
+.dark-sticky-light .navbar.navbar-nav > li > a.highlighted,
+.dark-sticky-light .is-sticky .navbar .navbar-nav > li > a:hover, .dark-sticky-light .is-sticky .navbar .navbar-nav > li > a:focus, .dark-sticky-light .is-sticky .navbar .navbar-nav > li > a.active,.dark-sticky-light .is-sticky .navbar.navbar-nav > li > a.highlighted,
+.page-links div a:hover, .page-links div a:active, .page-links div a:focus,
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a.active,
+.text-color,
+.item-box a:hover i,
+.inverse i,
+.item-box.icons-color i,
+.pricing:hover .title,
+.pricing:hover .title a,
+.process-content:hover .title,
+.pricing .price,
+.post-meta  i,
+.meta i,
+.quote blockquote:before,
+.quote blockquote:after,
+.tweet_time a,
+#video-controls a,
+.link-hover-color a:hover,
+.icons-hover-color i:hover,
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active > a:focus,
+.navbar-default .navbar-nav > li.active > a:hover,
+#page .breadcrumb > .active,
+.timeliner li:hover .timeline-heading h4.subheading,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.sitemap li a:hover,
+.bakery-block:hover .fill-icon,
+.pricing:hover .pricing-icon,
+.travel-block i,
+.side-navbar .top-contact.link-hover-black > a:hover,
+.side-navbar .top-social-icon > a:hover i,
+header .nav .open > a.highlighted,
+.btn-transparent-black:hover,
+.btn-transparent-black-inverse,
+.btn-transparent-white-inverse,
+.btn-transparent-color,
+.btn-transparent-color-inverse:hover,
+.post-title a:link:hover,
+#back-to-top,
+.work-section .nav li.active,
+.work-section .nav li:hover,
+.mixed-grid .nav li.active,
+.mixed-grid .nav li:hover,
+a.read-more,
+a.read-more:hover,
+a.read-more:focus,
+a.read-more:active,
+.panel-group.list-style1 .panel .panel-heading > .panel-title:before
+{
+	color: #fc600b;
+}
+
+
+
+/* ============================
+
+
+	       BACKGROUND COLOR
+
+=============================== */
+.top-bar-section.top-bar-bg-color,
+.product-count,
+.nav > li > a:focus, .nav > li > a:hover,
+.top-bar-section.top-bar-bg-color,
+.section-title h1:before,
+.section-title h2:before,
+.section-title h4:before,
+.special-feature .mask-top h4:before ,
+.s-feature-box,
+.s-feature-box:hover .mask-bottom,
+.progress-bar,
+.owl-prev .fa, .owl-next .fa,
+h3.count-number:before,
+h2.count-number:before,
+.item-box.inverse a:hover i,
+.work-process-box .item-number,
+.name:before,
+.inverse-bg-color i,
+.icons-bg-color i,
+.bg-color,
+.bg-hover-color:hover,
+.gray-bg i:hover,
+.features-list-item:hover i,
+.bar,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.blog.timeliner>li:hover .timeline-image,
+.blog.timeliner>li:hover .timeline-icon,
+div.count-number:before,
+.static-color-icons span,
+.fill-icon:after,
+.bakery-menu .nav-tabs > li.active > a,
+.bakery-menu .nav-tabs > li.active > a:focus,
+.bakery-menu .nav-tabs > li.active > a:hover,
+.travel-tab .input-group-addon,
+.travel-tab .nav-tabs > .active > a,
+.travel-tab .nav-tabs > .active > a:hover,
+.travel-tab .nav-tabs > .active > a:focus,
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td.active:hover,
+.travel-tab .nav-tabs > li a > i ,
+.hotel-tab .nav-tabs > li.active > a,
+.hotel-tab .nav-tabs > li.active > a:focus,
+.hotel-tab .nav-tabs > li.active > a:hover,
+.navbar-default .navbar-toggle .icon-bar,
+.circle.count-number.border-color:before,
+.image-bg .overlay-color,
+.overlay-color,
+.figcaption i,
+.work-section .nav li.active:after,
+.work-section .nav li:hover:after,
+.mixed-grid .nav li.active:after,
+.mixed-grid .nav li:hover:after,
+.news-section .image .meta,
+.footer-widget .social-icon i:hover
+{
+	background-color: #fc600b;
+}
+.btn-default,
+.btn-default-inverse:hover,
+.btn-default-inverse:focus,
+.btn-default-inverse:active,
+.btn-transparent-color:hover,
+.btn-transparent-color-inverse,
+.team-item  .image .social-icon,
+.gradientBG,
+.fill-icon:after,
+.footer-widget .social-icon i:hover{
+
+  /* Fallback (could use .jpg/.png alternatively) */
+  background-color: #fc600b;
+
+  /* SVG fallback for IE 9 (could be data URI, or could use filter) */
+  background-image: url(fallback-gradient.svg);
+
+  /* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
+  background-image:
+    -webkit-gradient(linear, left top, right top, from(#fc600b), to(#c60fcb));
+
+  /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
+  background-image:
+    -webkit-linear-gradient(left, #fc600b, #c60fcb);
+
+  /* Firefox 3.6 - 15 */
+  background-image:
+    -moz-linear-gradient(left, #fc600b, #c60fcb);
+
+  /* Opera 11.1 - 12 */
+  background-image:
+    -o-linear-gradient(left, #fc600b, #c60fcb);
+
+  /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
+  background-image:
+    linear-gradient(to right, #fc600b, #c60fcb);
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='##fc600b', endColorstr='#c60fcb');
+}
+
+/* ============================
+
+	       BORDER COLOR
+
+=============================== */
+
+.dropdown-menu,
+.desc-border,
+.border-color,
+.timeliner li:hover .timeline-image,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.blog.timeliner  >li:hover .timeline-panel,
+.form-control:focus,
+.circle.count-number.border-color,
+.btn-transparent-color,
+.btn-transparent-color-inverse:hover,
+.btn-transparent-color:hover,
+.btn-transparent-color-inverse,
+#back-to-top
+{
+	border-color: #fc600b;
+}
+
+.bottom-arrow:before{
+	border-top-color: #fc600b;
+}
+.rightGrip,
+.leftGrip{
+	border-bottom: 10px solid #fc600b !important;
+}
+
+.blog.timeliner >li:hover  .timeline-panel:before{
+  border-left-color: #fc600b;
+}
+.blog.timeliner  >li.timeline-inverted:hover .timeline-panel:before{
+  border-right-color: #fc600b;
+  border-left-color: #ffffff;
+}
+.right.blog.timeliner  >li.timeline-inverted:hover .timeline-panel:before,
+.right.blog.timeliner >li:hover  .timeline-panel:before{
+	border-right-color: #fc600b;
+	border-left-color: #ffffff;
+}
+.pricing:hover i.icons-circle.medium.pricing-icon{
+	text-shadow: 0px 0px 5px rgba(252,96,11, 0.5);
+}
+.top-up .nav-tabs > li.active > a:after,
+.top-up  .nav-tabs > li.active > a:focus:after,
+.top-up .nav-tabs > li.active > a:hover:after{
+    border-color: #fc600b transparent transparent;
+}
+
+/******************************************************************************
+  Max Width "767px"
+*******************************************************************************/
+@media (max-width: 767px) {
+	.blog.timeliner  >li.timeline-inverted:hover .timeline-panel:before,
+	.blog.timeliner >li:hover  .timeline-panel:before{
+		border-right-color: #fc600b;
+		border-left-color: #ffffff;
+	}
+}
+/******************************************************************************
+  Max Width "992px"
+*******************************************************************************/
+@media (min-width: 992px) {
+
+	.navbar-bg-color{
+		background-color: #fc600b;
+	}
+
+}
+/* Transparent Color */
+
+.color-switch .owl-controls .owl-page span,
+.tags li a{
+ background-color: rgba(252,96,11,.8);
+}
+/* Content Select In Browser */
+
+::-moz-selection {
+    background: #fc600b;
+    color: #000000;
+    text-shadow: none;
+}
+
+::selection {
+    background: #fc600b;
+    color: #a4003a;
+    text-shadow: none;
+}

@@ -1,0 +1,42 @@
+version: '2.4'
+services:
+  web:
+    build:
+      context: ./application/
+      dockerfile: Dockerfile.dev
+    command: python -u app.py
+    links:
+      - mysql
+    depends_on:
+      - mysql
+    volumes:
+      - ./application:/app
+      - ./crawler/data:/app/crawl_data
+      - ./crawler/articles:/app/crawled_articles
+      - ./crawler/urlIndex:/app/crawled_urlIndex
+    environment:
+      - PYTHONUNBUFFERED=0
+    ports:
+      - 5000:5000
+  crawler:
+    container_name: crawler
+    build: ./crawler
+    command: python3
+    volumes:
+      - ./crawler:/crawler
+    working_dir: /crawler
+    tty: true
+    ports:
+      - 3000:3000
+  mysql:
+    image: mysql:5.7
+    container_name: mysql
+    ports:
+      - 3306:3306
+    volumes:
+      - ./database/mysql:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=takaval@137
+      - MYSQL_DATABASE=takaval
+    healthcheck:
+      test: "exit 0"

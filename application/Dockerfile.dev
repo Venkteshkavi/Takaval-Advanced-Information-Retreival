@@ -1,0 +1,19 @@
+FROM python:2.7
+
+EXPOSE 5000
+
+WORKDIR /app
+
+ENV TAKAVAL_CONFIG /app/config/dev.py
+
+ADD requirements.txt /app
+
+RUN pip install -r requirements.txt
+
+RUN python -m nltk.downloader punkt
+RUN python -m nltk.downloader stopwords
+RUN python -m spacy download en_core_web_sm
+RUN python -m spacy download en_core_web_lg
+
+RUN pip install git+https://github.com/codelucas/newspaper.git@python-2-head
+RUN pip install news-please

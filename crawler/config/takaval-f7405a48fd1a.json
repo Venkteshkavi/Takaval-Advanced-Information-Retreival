@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "takaval",
+  "private_key_id": "f7405a48fd1a0519ddad03c2f1595daeff26e0c7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDN4mLJ5l41IEXv\n7NQa5/xZf7BHnrglSfjbb8iCO85gv0yj21Bs6aE01yltY5bgShC/otWqfAJ2lKig\ntsfJ/RVlCGhqLUTJkjE1T/7biWSLMXl2cI+OV/wpBMUbkCTZg4ksFlwatj40pBr9\nrvPP53BPVmzTI4HprqRPLBryOUzveQSMMRd4SNNkBfwhcDU0VkiQsAjLTy31koqu\n2AJjB16eYAEQ4mbM2acPxsEWPaJPYfhO2Rl1qTOb/P4IAww3/+ux7Unvc0z2zJ6v\n7LZY6F0oGhTI9S44TIo/DhrogvqAA/9Z4GwGD8eVVOpR+UjreG7GwlY7lNAMw3XI\npifwfLaJAgMBAAECggEALHvNfHIZyMDAW6Z/7ZBSJcRBAjh48RWaf08Xs4vYe27Z\n0E2CgwW3nwMeIFR0NOHL3JwCLmO85IIaLR9Q64OTK9E1PjupsSO1Hh+6oRR+dNSr\nubt4SPkZsoMlU19Blv2klbH/FIZrylPqwQUcCL+otHun57a0SxlAxxpweAWJafQI\nD6pfkeQ+39sajs0UAJiz/lIgqEagw/g1bbTShExMAvtyzH6eY0jQS49BJP8MaOYZ\naJqghepmp0Lo05RfjKUJMdFbX59pkuSBhqBnZJDOjVm1uGNxe8BnnPfOOZp1pEmz\noKGvuuptPzDNPP8pzedhjKKiW63w0k8fZuA2u7aVAQKBgQD/na5bVEKnnXekZ34E\nDRFy9ETUYDEZiOoAVL3aKYHaRyi+964mEJdjFCHUqGE9H5F3c+q1FfbrUWBaiET9\nzDHRUAPPv/tOicE6zVL3UEqZnKSUPgvR1xxxM/x0JcLC3PB+AwmmxKZHOty73Bjm\ntT/hba5yIMD2eeeRLaCOa7XenQKBgQDOMZOGsbH7GtdWrfK4SE4CB+o190eSEDhs\nvWyYAWzsfUOXk9O7D2/noNKv5VL3/W/Y0LvlFlCSmka5p7YwiTouy+G3yAGEmn5w\nH0+65ONrpC+7zdsCJLJ+6YZP9KMD4ZHFa0fd545hOmVxnB/mK38kj6xaJ9bOSa0A\nRD/JCCbd3QKBgQD1aKWk+VilJAFhzhqmOQWvn+UVIOUC5vgCKVm8wmzw67Cq55BC\n61rsvL9eM+pnjI9UZ+3Gvbe6ZP5k7L+QCyMpGfEO2/qihI8HrWkiF+wHXuSDjq46\nYJPl+0s9F6PNAeHCmZgCjHo3mMOjeMRPe2RBQdRhriCUgqVYNL4Y/kA14QKBgGvh\ncm9pr1ZS/9HBJxoV8oKLg5YCr/aS+AKkxRluvX+qNmArHv9jH0iQU0tmb5eCiS9m\nXriIiVV61IA0aFVSpxdu4sUWJv0rG/Yr27pMIVTjTXo0RV8EtkNCiVxyAYx5S5x/\n+dT3Xv4t4H+lkOcLYPVPGnz9FR1PXO2jx7+1vSgdAoGBAMiyNcEpBQrOmVbVGwHM\ndGHb3W97nk+JJhn9AMZE0vuUlJf2wDRwNT0i+8zdZqZllZQWT61Lj+rUPG4PxJTk\n2j2hqTWZsGmKuFiuRtFDscQKs4Kk2k7mNU4TvMz3BfN2Yx7f/ktwgLYCyYti/hZR\nXwyP+fQaoerhti3RZpe0LzqQ\n-----END PRIVATE KEY-----\n",
+  "client_email": "emmanuel@takaval.iam.gserviceaccount.com",
+  "client_id": "101866049877801387575",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/emmanuel%40takaval.iam.gserviceaccount.com"
+}

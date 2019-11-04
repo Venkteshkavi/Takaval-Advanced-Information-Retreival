@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>{% block title %}{% endblock %}</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- ========== FAVICON & APPLE ICONS ========== -->
+        <link rel="shortcut icon" href="/static/images/favicon.png">
+
+        <!-- ========== VIEWPORT META ========== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Bootstrap core CSS -->
+        <link href="/static/main/css/animate.min.css" rel="stylesheet" />
+        <link href="/static/main/css/bootstrap.min.css?v=2.0" rel="stylesheet" />
+        <link href="/static/main/css/base_main.css?v=1.0" rel="stylesheet" />
+        <link href="/static/main/css/responsive_main.css?v=1.0" rel="stylesheet" />
+        <link href="/static/main/css/custom_main.css?v=1.0" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+        {% block head %}{% endblock %}
+    </head>
+    <body class="one-page">
+      <div id="page">
+          <div class="transparent-header dark-sticky-light">
+            <div class="sticky-menu relative">
+              <!-- navbar -->
+              <div class="navbar navbar-default" role="navigation">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="navbar-header">
+                        <!-- Button For Responsive toggle -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="/">
+                          <span class="logo">takaval</span>
+                        </a>
+                      </div>
+                      <!-- Navbar Collapse -->
+                      <div id="topnav" class="navbar-collapse collapse mob">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        </button>
+                        <!-- nav -->
+                        <ul class="nav navbar-nav">
+                          <li>
+                            <a href="/data" class="scroll">The Data</a>
+                          </li>
+                          <li>
+                            <a href="/dashboard" class="scroll">Dashboard</a>
+                          </li>
+                          <li>
+                              <a href="/crawl-index" class="scroll">Crawled Data</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% block content %}{% endblock %}
+          <section id="footer">
+                <div class="footer-widget">
+                  <div class="l-container">
+                        <div class="logo-row">
+                          <div class="widget-title" style="padding-top:10px;width:100px;">
+                              <span class="logo" style="color:#1b75bb !important; line-height:25px;">takaval</span>
+                          </div>
+                        </div>
+                        <div class="site-nav">
+                          <div class="col">
+                                  <h3 class="title">takaval</h3>
+                              <ul>
+                                <li><a href="/dashboard">Dashboard</a></li>
+                                <li><a href="/crawl-index">Crawled Data</a></li>
+                                <li><a href="/aboutus">About Us</a></li>
+                              </ul>
+                          </div>
+
+                          <div class="col">
+                                  <h3 class="title">Data Sources</h3>
+                              <ul>
+                                  <li><a href="https://timesofindia.indiatimes.com">The Times of India</a></li>
+                                  <li><a href="https://thehindu.com">The Hindu</a></li>
+                                  <li><a href="https://ndtv.com">NDTV</a></li>
+                                  <li><a href="https://news.detik.com">Detik</a></li>
+                              </ul>
+                          </div>
+                          <div class="col">
+                                  <h3 class="title">Reference Dataset</h3>
+                              <ul>
+                                  <li><a href="https://www.acleddata.com">Acled</a></li>
+                              </ul>
+                          </div>
+                          <div class="col">
+                                  <h3 class="title">Major Libraries</h3>
+                              <ul>
+                                  <li><a href="https://spacy.io/">Spacy</a></li>
+                                  <li><a href="https://scrapy.org/">Scrapy</a></li>
+                              </ul>
+                          </div>
+                      </div> <!-- end row -->
+                      <p class="text-center" style="color: #cfd7df;width:100%;font-size:14px;">{% include 'scripts/copyright.html' %}</p>
+                  </div> <!-- end container -->
+                </div>
+            </section>
+          <!-- footer -->
+        </div>
+        <!-- page -->
+        <!-- Scripts -->
+        <script type="text/javascript" src="/static/main/js/jquery.min.js?v=2.0"></script>
+        <script type="text/javascript" src="/static/main/js/bootstrap.min.js?v=2.0"></script>
+        {% block prescripts %}{% endblock %}
+        <script type="text/javascript" src="/static/main/js/custom.js?v=2.0"></script>
+        <script>
+          $(document).ready(function(){
+            $(".has-nav-sub-menu").hover(function(){
+              $(this).find('.nav-sub-menu').addClass('active');
+            }, function(){
+              $(this).find('.nav-sub-menu').removeClass('active');
+            });
+          })
+        </script>
+        {% block script %}{% endblock %}
+    </body>
+</html>

@@ -1,0 +1,78 @@
+{% extends "/main/mainbase.html" %}
+      {% block title %}
+          Takaval
+      {% endblock %}
+
+      {% block head %}
+      {% endblock %}
+
+      {% block content %}
+          <section id="wrapper-section">
+            <!--<span class="ext-line"></span>-->
+            <div id="stripes">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <section id="home">
+                <div class="l-container">
+                    <h1>A real time web mining system to monitor<br> social unrest events</h1>
+                    <p class="text-description">
+                        Riots & Violence happen all over the world and have a huge societal impact. 
+                        There is an information need to capture these events in a single data source 
+                        so that a user who wishes to analyse the extent of social unrest in a region don’t 
+                        have to go through the hassle of gathering data from myriad data sources. Takaval automates the process of ingesting data 
+                        from multiple data sources and generating events from them. Takaval also attribute a 
+                        cause to the events and specify the type of activity that led to it.
+                    </p>
+                    <ul>
+                      <li>
+                        <a href="/data" class="btn-def btn-brdr" style="color:#fff">View Crawled Data</a>
+                      </li>
+                    </ul>
+                </div>
+            </section>
+          </section>
+          <section id="products" class="page-section light-bg">
+            <div class="lines"></div>
+            <div class="cover-line"></div>
+            <div class="container-xl">
+              <h1 style="margin-bottom:20px;">
+                How does takaval work?
+              </h1>
+              <div class="btn-links card-product card-interact">
+                <span class="product-type">Crawl News Articles</span>
+                <h2 class="text-title">Data Collection</h2>
+                <p class="text-description">This module helps in collecting news articles from the major news websites. 
+                  Initially a crawler crawls all the relevant urls for a given query. This url serves as an index to
+                  scrape article contents. The crawler that scrapes the article's content is tailored to the article's source website.
+                </p>
+              </div>
+              <div class="btn-links card-product card-spot">
+                <span class="product-type">Extract Events From Articles</span>
+                <h2 class="text-title">Data Extraction</h2>
+                <p class="text-description">The module handles tasks like topic classification, extracting events, locations,
+                  actors involved, summarizing the article and attribute whether the event has relation towards elections. 
+                </p>
+              </div>
+            </div>
+            <div class="container-xl">
+              <div class="btn-links card-product card-reskill">
+                <span class="product-type">Store Data For Processing</span>
+                <h2 class="text-title">Data Storage</h2>
+                <p class="text-description">A MySQL database is used to store all the crawled articles. This is then used by the
+                  Data Extraction module to extract events and do other filtering operations on the article.
+                </p>
+              </div>
+              <div class="btn-links card-product card-bootcamp">
+                <span class="product-type">Web App To View Results</span>
+                <h2 class="text-title">Web Application</h2>
+                <p class="text-description">The takaval web application helps to view the crawled data, view analytics, heatmap
+                  of events with its location, view the detailed summary of events and view if the events are related to election.
+                </p>
+              </div>
+            </div>
+          </section>
+        {% endblock %}
